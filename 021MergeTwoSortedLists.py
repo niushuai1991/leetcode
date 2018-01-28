@@ -38,23 +38,23 @@ class Solution(object):
         :type l2: ListNode
         :rtype: ListNode
         """
-        new_node = ListNode(0)
-        next_node = new_node
-        while l1 != None or l2 != None:
+        start_node = ListNode(0)
+        current_node = start_node
+        while l1 is not None or l2 is not None:
             if l1 == None:
-                next_node.next = l2
+                current_node.next = ListNode(l2.val)
                 l2 = l2.next
             elif l2 == None:
-                next_node.next = l1
+                current_node.next = ListNode(l1.val)
                 l1 = l1.next
-            elif l1.val > l2.val:
-                next_node.next = l1
+            elif l1.val < l2.val:
+                current_node.next = ListNode(l1.val)
                 l1 = l1.next
             else:
-                next_node.next = l2
+                current_node.next = ListNode(l2.val)
                 l2 = l2.next
-            next_node = next_node.next
-        return new_node.next
+            current_node = current_node.next
+        return start_node.next
 
 
 if __name__ == '__main__':
