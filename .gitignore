@@ -3,3 +3,6 @@
 # eclipse
 .project
 .pydevproject
+
+# VS
+.vscode/
