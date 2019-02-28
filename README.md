@@ -13,3 +13,5 @@ https://leetcode.com/problems/validate-binary-search-tree/
 https://leetcode.com/problems/subarrays-with-k-different-integers/
 2月26日
 https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+2月27日
+https://leetcode.com/problems/repeated-substring-pattern/
