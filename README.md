@@ -16,3 +16,6 @@ https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 
 2月27日 （未完成）
 https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+
+3月8日
+https://leetcode.com/problems/maximum-frequency-stack/
