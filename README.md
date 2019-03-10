@@ -3,7 +3,7 @@
 2月20日 （未完成）
 https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 
-2月21日 （完成）
+2月21日
 https://leetcode.com/problems/validate-binary-search-tree/
 
 2月22日 （未完成）
